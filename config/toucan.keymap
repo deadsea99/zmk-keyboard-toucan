@@ -57,6 +57,45 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        caplk {
+            bindings = <&kp CAPSLOCK>;
+            key-positions = <24 25>;
+        };
+
+        ClsWin {
+            bindings = <&kp LA(F4)>;
+            key-positions = <17 16 15>;
+        };
+
+        ExcelEdit {
+            bindings = <&kp LC(TILDE)>;
+            key-positions = <0 12 24>;
+        };
+
+        PgUp {
+            bindings = <&kp PG_UP>;
+            key-positions = <5 17>;
+        };
+
+        PgDwn {
+            bindings = <&kp PG_DN>;
+            key-positions = <17 29>;
+        };
+
+        NxtWin {
+            bindings = <&kp LA(TAB)>;
+            key-positions = <4 16>;
+        };
+
+        PrevWin {
+            bindings = <&kp LA(LS(TAB))>;
+            key-positions = <16 28>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
