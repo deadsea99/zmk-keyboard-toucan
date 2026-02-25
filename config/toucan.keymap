@@ -72,7 +72,7 @@
         };
 
         ExcelEdit {
-            bindings = <&kp LC(TILDE)>;
+            bindings = <&kp LC(NUMBER_1)>;
             key-positions = <0 12 24>;
         };
 
